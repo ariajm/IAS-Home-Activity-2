@@ -1,0 +1,88 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+header {
+  background-color: #EEBA2B;
+  font-style: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.127);
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 5px rgba(115, 115, 115, 0.5);
+  margin-bottom: 100px;
+}
+
+main {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 20%;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  width: 50%; 
+  max-width: 600px; 
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 340px;
+  color: #444444;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+  font-size: 25px;
+  transition: transform 0.2s;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  width: 10rem;
+  height: 2.5rem;
+  padding: 10px 20px;
+  border: none;
+  background-color: #EEBA2B;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-style: "Montserrat", sans-serif;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05); 
+}
+
+.left-container {
+  text-align: center;
+  margin-right: 0px;
+}
+
+.right-container {
+  text-align: center;
+}
